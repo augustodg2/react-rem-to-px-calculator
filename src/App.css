@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Open Sans', sans-serif;
+}
+
+h1, h2, h3, h4, h5 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+}
+
+h1 {
+  font-size: 1.5rem;
+  margin-bottom: .5rem;
+}
+
+h1 .primary {
+  color: #59DAE2;
+  font-weight: 600;
+}
+
+h2 {
+  font-weight: 400;
+  font-size: 1.2rem;
+  color: #666;
+}
+
+h3 {
+  font-size: 1.125rem;
+  color: #9FA0A2;
+}
+
+h4 {
+  font-size: 0.875rem;
+  color: #9FA0A2;
+}
+
+body {
+  background-color: #293142;
+  font-size: 16px;
+}
+
+.container {
+  background: #FFFFFF;
+  color: #293142;
+  box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.25);
+  border-radius: 2.5rem;
+  margin-top: 2.5rem;
+  padding: 2.5rem 3rem 3rem 3rem;
+  text-align: center;
+}
+
+.rem-field {
+  margin-bottom: 1rem;
+}
+
+.conversion {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  padding: 2rem 0;
+}
+
+.root-fs-field input, .root-fs-field .hide {
+  font-size: 1.75rem;
+}
+
+input {
+  padding: .25rem;
+  border-radius: .75rem;
+  font-size: 3rem;
+  font-weight: 600;
+  color: #293142;
+  border: none;
+  max-width: 200px;
+}
+
+input:focus {
+  outline: none;
+  background: #eee;
+}
+
+.hide {
+  position: absolute;
+  height: 0;
+  overflow: hidden;
+  white-space: pre;
+  font-size: 3rem;
+}
+
+footer {
+  color: #FFF;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin-top: 2.75rem;
+  padding: 0 2rem;
+}
+footer a {
+  font-weight: 500;
+  color: #59DAE2;
+  font-family: 'Montserrat';
+}
+footer nav {
+  margin-bottom: .75rem;
+}
+footer nav a {
+  margin-right: 1rem;
+}
+footer nav a:last-child {
+  margin-right: 0;
+}
+footer nav a img {
+  max-width: 2rem;
+}
+footer p {
+  font-weight: 500;
+  font-family: 'Montserrat';
+  margin-bottom: .75rem;
+}
+footer p.muted, footer p.muted a {
+  color: #9FA0A1;
+  font-weight: 400;
+}
+footer p.muted a {
+  text-decoration: none;
+  font-weight: 600;
+}
+
+
+@media(min-width: 600px) {
+  .container {
+    margin: auto;
+    margin-top: 4.5rem;
+    max-width: 600px;
+  }
+
+  .conversion {
+    padding: 4rem 2rem 3rem 2rem;
+  }
+
+  .rem-field {
+    margin: 0;
+  }
+}
