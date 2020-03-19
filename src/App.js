@@ -47,7 +47,7 @@ function App() {
     </div>
     <footer>
       <nav>
-        <a href="#"><img src="img\github.png" alt="Source code" title="Source code" /></a>
+        <a href="https://github.com/augustodg2/rem-to-px-calculator"><img src="img\github.png" alt="Source code" title="Source code" /></a>
         <a href="mailto:augustodg2@gmail.com"><img src="img\mail.png" alt="Contact Me" title="Contact Me" /></a>
       </nav>
       <p>Made by Augusto Dias. <a href="#">See my work</a>.</p>
