@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/rem-to-px-calculator/static/css/main.a3a2a3a1.chunk.css",
-    "main.js": "/rem-to-px-calculator/static/js/main.b805292a.chunk.js",
-    "main.js.map": "/rem-to-px-calculator/static/js/main.b805292a.chunk.js.map",
+    "main.js": "/rem-to-px-calculator/static/js/main.2bfcc545.chunk.js",
+    "main.js.map": "/rem-to-px-calculator/static/js/main.2bfcc545.chunk.js.map",
     "runtime-main.js": "/rem-to-px-calculator/static/js/runtime-main.d5fb014e.js",
     "runtime-main.js.map": "/rem-to-px-calculator/static/js/runtime-main.d5fb014e.js.map",
     "static/js/2.4412fe2e.chunk.js": "/rem-to-px-calculator/static/js/2.4412fe2e.chunk.js",
     "static/js/2.4412fe2e.chunk.js.map": "/rem-to-px-calculator/static/js/2.4412fe2e.chunk.js.map",
     "index.html": "/rem-to-px-calculator/index.html",
-    "precache-manifest.0ff198aac864e18de4b74deb27b7d3dd.js": "/rem-to-px-calculator/precache-manifest.0ff198aac864e18de4b74deb27b7d3dd.js",
+    "precache-manifest.d630d21c492f908748609afb09a50aa8.js": "/rem-to-px-calculator/precache-manifest.d630d21c492f908748609afb09a50aa8.js",
     "service-worker.js": "/rem-to-px-calculator/service-worker.js",
     "static/css/main.a3a2a3a1.chunk.css.map": "/rem-to-px-calculator/static/css/main.a3a2a3a1.chunk.css.map",
     "static/js/2.4412fe2e.chunk.js.LICENSE.txt": "/rem-to-px-calculator/static/js/2.4412fe2e.chunk.js.LICENSE.txt"
@@ -17,6 +17,6 @@
     "static/js/runtime-main.d5fb014e.js",
     "static/js/2.4412fe2e.chunk.js",
     "static/css/main.a3a2a3a1.chunk.css",
-    "static/js/main.b805292a.chunk.js"
+    "static/js/main.2bfcc545.chunk.js"
   ]
 }

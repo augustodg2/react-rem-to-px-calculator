@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/rem-to-px-calculator/precache-manifest.0ff198aac864e18de4b74deb27b7d3dd.js"
+  "/rem-to-px-calculator/precache-manifest.d630d21c492f908748609afb09a50aa8.js"
 );
 
 self.addEventListener('message', (event) => {
