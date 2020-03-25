@@ -1,17 +1,16 @@
-import React, { useState, useRef, useEffect } from 'react'
+import React, { useRef, useEffect } from 'react'
 
 const NumberInput = ({ onChange, field, placeholder, value }) => {
   const txt = useRef(null)
   const hide = useRef(null)
   
   useEffect(() => {
-    hide.current.textContent = value
     txt.current.style.width = (hide.current.offsetWidth + 8) + "px";
     // set width to placeholder offset if has no value
   }, [value])
 
   return (<>
-    <span className="hide" ref={hide}></span>
+    <span className="hide" ref={hide}>{value}</span>
     <input
       ref={txt}
       type="text"

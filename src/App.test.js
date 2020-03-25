@@ -52,12 +52,13 @@ describe('render-test', () => {
 })
 
 describe('calculation-test', () => {
-  it('calculates px value when type on root-fs', () => {
+  it('calculates px value when type on root-fs', async () => {
     const { getByTestId } = render(<App />);
     const rootFSInput = getByTestId('root-fs-input');
     const remInput = getByTestId('rem-input');
     const pxInput = getByTestId('px-input');
-    userEvent.type(remInput, `${ Math.random() * Math.random() * 1000 }`);
+    
+    await userEvent.type(remInput, `${ Math.random() * Math.random() * 1000 }`);
 
     expect(pxInput.value).toBe(`${ parseFloat(remInput.value) * parseFloat(rootFSInput.value)  }`);
   });
