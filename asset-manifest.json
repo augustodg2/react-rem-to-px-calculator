@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/rem-to-px-calculator/static/css/main.a3a2a3a1.chunk.css",
-    "main.js": "/rem-to-px-calculator/static/js/main.2bfcc545.chunk.js",
-    "main.js.map": "/rem-to-px-calculator/static/js/main.2bfcc545.chunk.js.map",
-    "runtime-main.js": "/rem-to-px-calculator/static/js/runtime-main.d5fb014e.js",
-    "runtime-main.js.map": "/rem-to-px-calculator/static/js/runtime-main.d5fb014e.js.map",
-    "static/js/2.4412fe2e.chunk.js": "/rem-to-px-calculator/static/js/2.4412fe2e.chunk.js",
-    "static/js/2.4412fe2e.chunk.js.map": "/rem-to-px-calculator/static/js/2.4412fe2e.chunk.js.map",
-    "index.html": "/rem-to-px-calculator/index.html",
-    "precache-manifest.d630d21c492f908748609afb09a50aa8.js": "/rem-to-px-calculator/precache-manifest.d630d21c492f908748609afb09a50aa8.js",
-    "service-worker.js": "/rem-to-px-calculator/service-worker.js",
-    "static/css/main.a3a2a3a1.chunk.css.map": "/rem-to-px-calculator/static/css/main.a3a2a3a1.chunk.css.map",
-    "static/js/2.4412fe2e.chunk.js.LICENSE.txt": "/rem-to-px-calculator/static/js/2.4412fe2e.chunk.js.LICENSE.txt"
+    "main.css": "/react-rem-to-px-calculator/static/css/main.a3a2a3a1.chunk.css",
+    "main.js": "/react-rem-to-px-calculator/static/js/main.ffe22be2.chunk.js",
+    "main.js.map": "/react-rem-to-px-calculator/static/js/main.ffe22be2.chunk.js.map",
+    "runtime-main.js": "/react-rem-to-px-calculator/static/js/runtime-main.97b15353.js",
+    "runtime-main.js.map": "/react-rem-to-px-calculator/static/js/runtime-main.97b15353.js.map",
+    "static/js/2.4412fe2e.chunk.js": "/react-rem-to-px-calculator/static/js/2.4412fe2e.chunk.js",
+    "static/js/2.4412fe2e.chunk.js.map": "/react-rem-to-px-calculator/static/js/2.4412fe2e.chunk.js.map",
+    "index.html": "/react-rem-to-px-calculator/index.html",
+    "precache-manifest.d5f11ebf46b152d9a6ab3a26049eb04d.js": "/react-rem-to-px-calculator/precache-manifest.d5f11ebf46b152d9a6ab3a26049eb04d.js",
+    "service-worker.js": "/react-rem-to-px-calculator/service-worker.js",
+    "static/css/main.a3a2a3a1.chunk.css.map": "/react-rem-to-px-calculator/static/css/main.a3a2a3a1.chunk.css.map",
+    "static/js/2.4412fe2e.chunk.js.LICENSE.txt": "/react-rem-to-px-calculator/static/js/2.4412fe2e.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.d5fb014e.js",
+    "static/js/runtime-main.97b15353.js",
     "static/js/2.4412fe2e.chunk.js",
     "static/css/main.a3a2a3a1.chunk.css",
-    "static/js/main.2bfcc545.chunk.js"
+    "static/js/main.ffe22be2.chunk.js"
   ]
 }
